@@ -47,14 +47,14 @@ def main_app():
     st.header("MeskGPT", divider=True)
     # subtitulo -> Selecione a IA que mais te ajuda, envie seu prompt e seja feliz
     st.markdown(
-        "#### Selecione a IA que mais te ajuda, envie seu prompt e seja feliz")
+        "#### Selecione a IA que mais te ajuda, envie seu comando e seja feliz")
     # selectbox -> Gerar Texto, Resumir Texto, Abrir Chat
     opcoes = ["Gerar Texto", "Resumir Texto", "Abrir Chat"]
     ferramenta_selecionada = st.selectbox(
         "Selecione a ferramenta de IA que você vai usar", options=opcoes)
 
     # Campo de prompt -> Digite aqui seu prompt
-    prompt = st.chat_input("Digite aqui seu prompt")
+    prompt = st.chat_input("Digite aqui o seu prompt")
 
     if ferramenta_selecionada:
         if ferramenta_selecionada == opcoes[0]:
