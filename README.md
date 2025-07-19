@@ -1,5 +1,3 @@
-Aqui está um modelo de README para sua aplicação MeskGPT:
-
 MeskGPT
 MeskGPT é uma aplicação web em Python que integra múltiplas ferramentas de IA utilizando Streamlit e APIs Hugging Face. Com ela, você pode gerar textos, resumir conteúdos e conversar com um assistente virtual personalizado.
 
